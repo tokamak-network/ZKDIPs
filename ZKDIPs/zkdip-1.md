@@ -74,8 +74,8 @@ Each status change is requested by the ZKDIP author and reviewed by the ZKDIP ed
 * **Draft** -- Once the first draft has been merged, you may submit follow-up pull requests with further changes to your draft until such point as you believe the ZKDIP to be mature and ready to proceed to the next status. An ZKDIP in draft status must be implemented to be considered for promotion to the next status (ignore this requirement for core ZKDIPs).
   * :arrow_right: Final -- After seminar and if agreeable, the ZKDIP editor will assign Final status.
   * :x: Final -- A request for Final status will be denied if material changes are still expected to be made to the draft.
-* **Accepted (Core ZKDIPs only)** -- This ZKDIP is in the hands of the zk-dex core developers. Their process for deciding whether to encode it into their implementation of zk0dex as part of a upgrade is not part of the ZKDIP process.
-  * :arrow_right: Final -- Standards Track Core ZKDIPs must be implemented in at least three viable Ethereum clients before it can be considered Final. When the implementation is complete and adopted by the community, the status will be changed to “Final”.
+* **Accepted (Core ZKDIPs only)** -- This ZKDIP is in the hands of the zk-dex core developers. Their process for deciding whether to encode it into their implementation of zk-dex as part of a upgrade is not part of the ZKDIP process.
+  * :arrow_right: Final -- Standards Track Core ZKDIPs must be implemented before it can be considered Final. When the implementation is complete and adopted by the community, the status will be changed to “Final”.
 * **Final** -- This ZKDIP represents the current state-of-the-art. A Final ZKDIP should only be updated to correct errata.
 
 Other exceptional statuses include:
@@ -92,7 +92,7 @@ Each ZKDIP should have the following parts:
 - Preamble - RFC 822 style headers containing metadata about the ZKDIP, including the ZKDIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. See [below](#ZKDIP-header-preamble) for details.
 - Simple Summary - “If you can’t explain it simply, you don’t understand it well enough.” Provide a simplified and layman-accessible explanation of the ZKDIP.
 - Abstract - a short (~200 word) description of the technical issue being addressed.
-- Motivation (*optional) - The motivation is critical for ZKDIPs that want to change the Ethereum protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the ZKDIP solves. ZKDIP submissions without sufficient motivation may be rejected outright.
+- Motivation (*optional) - The motivation is critical for ZKDIPs that want to change the zk-dex protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the ZKDIP solves. ZKDIP submissions without sufficient motivation may be rejected outright.
 - Specification - The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current zk-dex platforms.
 - Rationale - The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
 - Backwards Compatibility - All ZKDIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The ZKDIP must explain how the author proposes to deal with these incompatibilities. ZKDIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
@@ -233,9 +233,13 @@ Once the ZKDIP is ready for the repository, the ZKDIP editor will:
 
 - Send a message back to the ZKDIP author with the next step.
 
-Many ZKDIPs are written and maintained by developers with write access to the Ethereum codebase. The ZKDIP editors monitor ZKDIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
+Many ZKDIPs are written and maintained by developers with write access to the zk-dex codebase. The ZKDIP editors monitor ZKDIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
 
 The editors don't pass judgment on ZKDIPs. We merely do the administrative & editorial part.
+
+## Alternative Language
+
+Anybody can submit issues ZKDIP in alternative language other than English, but PR should be in English.
 
 ## History
 
