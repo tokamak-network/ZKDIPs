@@ -3,7 +3,7 @@ zkdip: 2
 title: zk address
 author: Kevin Jeong (@ggs134 )
 discussions-to: https://github.com/Onther-Tech/ZKDIPs/issues/2
-status: Draft
+status: Accepted
 type: Standards Track
 category : Protocol
 created: 2019-8-24
