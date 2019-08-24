@@ -1,9 +1,9 @@
 ---
 zkdip: to be assigned
-title: zk address
+title: 2
 author: Kevin Jeong (@ggs134 )
 discussions-to: https://github.com/Onther-Tech/ZKDIPs/issues/2
-status: WIP
+status: Draft
 type: Standards Track
 category : Protocol
 created: 2019-8-24
