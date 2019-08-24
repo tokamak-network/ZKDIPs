@@ -14,7 +14,7 @@ If your ZKDIP requires images, the image files should be included in a subdirect
 
 When you believe your ZKDIP is mature and ready to progress past the draft phase, you should do one of two things:
 
- - **For a Standards Track ZKDIP of type Core**, open zoom seminar at [here](https://calendar.google.com/calendar/embed?src=onther.io_r5sqccaoqrrjfio3nli8bpbk34%40group.calendar.google.com&ctz=Asia%2FSeoul), where it can be discussed for inclusion in a future hard fork. If implementers agree to include it, the ZKDIP editors will update the state of your ZKDIP to 'Accepted'.
+ - **For a Standards Track ZKDIP of type Core**, open zoom seminar at [here](https://calendar.google.com/calendar/embed?src=onther.io_r5sqccaoqrrjfio3nli8bpbk34%40group.calendar.google.com&ctz=Asia%2FSeoul), where it can be discussed for inclusion in a future hard fork. If implementers agree to include it, the ZKDIP editors will update the state of your ZKDIP to 'Final'.
  - **For all other ZKDIPs**, open a PR changing the state of your ZKDIP to 'Final'. An editor will review your draft and ask if anyone objects to its being finalised. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ZKDIP - they may close the PR and request that you fix the issues in the draft before trying again.
 
 # ZKDIP Status Terms
