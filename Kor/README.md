@@ -6,9 +6,9 @@ ZK-DEX 개선제안(ZKDIPs)은 zk-dex 플랫폼의 코어 프로토콜, 클라�
  1. [ZKDIP-1](ZKDIPs/zkdip-1.md)을 먼저 살펴본다.
  2. 우측 상단에 포크(Fork) 버튼을 클릭.
  3. 개선제안을 ZKDIP 포크 저장소에 포함시킨다. [ZKDIP 템플릿](../zkdip-template.md) 참조.
- 4. [ZKDIPs repository](https://github.com/Onther-Tech/ZKDIPs)에 풀 리퀘스트 요청.
+ 4. [ZKDIPs 저장소](https://github.com/Onther-Tech/ZKDIPs)에 풀 리퀘스트(이하 PR) 요청.
 
-첫번째 풀 리퀘스트(이하 PR)은 최종(Final) PR의 첫번째 초안(Draft)이 된다. PR은 정해진 템플릿을 따라야 한다. 편집()(editor)는 ZKDIP의 PR을 검토하고 병합(merge)하기 전 ZKDIP 번호를 부여한다. 여기서 중요한 사항은 PR의 `discussions-to` 헤더에 깃헙 이슈 URL을 포함하여 사람들이 해당 제안에 대해서 공개적으로 토론할 수 있도록 만드는 것이다.
+첫번째 PR은 최종(Final) PR의 첫번째 초안(Draft)이 된다. PR은 정해진 템플릿을 따라야 한다. 편집자(editor)는 ZKDIP의 PR을 검토하고 병합(merge)하기 전 ZKDIP 번호를 부여한다. 여기서 중요한 사항은 PR의 `discussions-to` 헤더에 깃헙 이슈 URL을 포함하여 사람들이 해당 제안에 대해서 공개적으로 토론할 수 있도록 만드는 것이다.
 
 만약 ZKDIP에 이미지가 포함되어야 한다면, 이미지 파일은 `assets` 디렉토리에 `assets/zkdip-N` 내부에 포함되어야 한다 (향후에 **N** 은 ZKDIP번호로 대체될 수 있다). ZKDIP에 이미지를 포함할때는 `../assets/zkdip-1/image.png`와 같은 상대경로를 사용해야 한다.
 
