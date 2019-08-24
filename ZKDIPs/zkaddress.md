@@ -5,7 +5,7 @@ author: Kevin Jeong (@ggs134 )
 discussions-to: https://github.com/Onther-Tech/ZKDIPs/issues/2
 status: WIP
 type: Standards Track
-category (*only required for Standard Track): Protocol
+category : Protocol
 created: 2019-8-24
 requires (*optional): 
 replaces (*optional): 
