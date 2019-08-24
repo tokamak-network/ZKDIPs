@@ -6,7 +6,7 @@ ZK-DEX Improvement Proposals (ZKDIPs) describe standards for the zk-dex platform
  1. Review [ZKDIP-1](ZKDIPs/zkdip-1.md).
  2. Fork the repository by clicking "Fork" in the top right.
  3. Add your ZKDIP to your fork of the repository. There is a [template ZKDIP here](zkdip-template.md).
- 4. Submit a Pull Request to Ethereum's [ZKDIPs repository](https://github.com/Onther-Tech/ZKDIPs).
+ 4. Submit a Pull Request to [ZKDIPs repository](https://github.com/Onther-Tech/ZKDIPs).
 
 Your first PR should be a first draft of the final ZKDIP. It must meet the formatting criteria. An editor will manually review the first PR for a new ZKDIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the ZKDIP as a whole.
 
