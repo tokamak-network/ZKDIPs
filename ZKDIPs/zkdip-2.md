@@ -1,6 +1,6 @@
 ---
-zkdip: to be assigned
-title: 2
+zkdip: 2
+title: zk address
 author: Kevin Jeong (@ggs134 )
 discussions-to: https://github.com/Onther-Tech/ZKDIPs/issues/2
 status: Draft
