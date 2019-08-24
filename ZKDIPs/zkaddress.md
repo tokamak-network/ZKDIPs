@@ -34,8 +34,9 @@ ex) "1abd" + "bda" = "1abdbda"
 ### other format
 - pubkey(point x, y) : {x : field value, y: field value} 
 - pubkey hexstring : hex(x) + hex(y)
-- 
-- circuit-input-format(CIF) : sha256(hex(pubkey.x) + hex(pubkey.y))[12:]
+- digested pubkey : sha256(pubkey hexstring)
+- zk address : digested pubkey[12:] (20 byte)
+- zk address format : "zk"+base58encode(zk address)
 
 ### public key cryptography algorithm (sk -> pk)
 - JubJub : https://github.com/Onther-Tech/Babyjubjub-keygen
@@ -54,10 +55,9 @@ ex) "1abd" + "bda" = "1abdbda"
 ```
 "71f68c591f2badb615a1e28bcc8e8afc04cad56989be57b4e0ec30ad6c90dcab61150068fd22e9fd7934e1aecc490c53c945a116967ae411d42d929fd89c2d"
 ```
-- CIF : ``` "70f1d6ef6a6db055aa4aaad57f0a46e692c58935" ```
-- zk address : ``` "zk70f1d6ef6a6db055aa4aaad57f0a46e692c58935" ```
-- Note Address(value=0, type=0, viewKey=0, salt=0) : ``` ```
-
+- zk address : ``` "70f1d6ef6a6db055aa4aaad57f0a46e692c58935" ```
+- base58encoded zk address : ``` "2aGHYonwumtLAG7SNKjharksCP3r" ```
+- zk address format : ``` "zk2aGHYonwumtLAG7SNKjharksCP3r" ```
 
 ## Rationale
 
