@@ -1,9 +1,9 @@
 ---
-zkdip: WIP
+zkdip: 5
 title: circuit note input spec
 author: Kevin Jeong (@inditow)
 discussions-to: https://github.com/Onther-Tech/ZKDIPs/issues/4
-status: WIP
+status: Draft
 type: Standards Track
 category : Circuit
 created: 2019-8-26
