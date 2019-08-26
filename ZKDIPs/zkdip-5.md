@@ -14,11 +14,11 @@ replaces (*optional):
 Note Input spec definition
 
 ## Abstract
-note.owner : 256 byte
-note.value : 256 byte
-note.type : 128 byte
-note.viewKey : 256 byte
-note.salt : 128 byte
+- note.owner : 256 byte
+- note.value : 256 byte
+- note.type : 128 byte
+- note.viewKey : 256 byte
+- note.salt : 128 byte
 
 ## Motivation
 노트 인풋 스펙이 정리되지 않아서 업무에 혼란이 있음
