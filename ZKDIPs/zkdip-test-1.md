@@ -1,16 +1,14 @@
 ---
-zkdip: <to be assigned>
+zkdip: TBD
 title: test
 author: Carl Park(@4000d)
-discussions-to:
+discussions-to: TBD
 status: Test
 type: test
-category test
 created: 2019-8-23
-requires (*optional):
-replaces (*optional):
+requires (*optional): TBD
+replaces (*optional): TBD
 ---
-test
 
 ## Simple Summary
 some test text
